@@ -6,6 +6,8 @@
       bluetooth
       networking
       audio
+      user
+      nix
     ];
   in {
     imports =

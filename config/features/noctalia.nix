@@ -1,6 +1,6 @@
 { self, inputs, ... }: {
 
-  flake.nixosModules.defaultApps = { pkgs, lib, ... }: {
+  flake.nixosModules.noctalia = { pkgs, lib, ... }: {
     environment.systemPackages = with pkgs; [
       noctalia
     ];

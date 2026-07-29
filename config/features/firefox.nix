@@ -1,8 +1,8 @@
 { self, inputs, ... }: {
 
-  flake.nixosModules.discord = { pkgs, lib, ... }: {
+  flake.nixosModules.firefox = { pkgs, lib, ... }: {
     environment.systemPackages = with pkgs; [
-      discord
+      firefox
     ];
   };
 }
