@@ -4,10 +4,12 @@
 
     flake-parts.url = "github:hercules-ci/flake-parts";
     import-tree.url = "github:vic/import-tree";
-    home-manager = {
-	url = "github:nix-community/home-manager/release-25.05";
-	inputs.nixpkgs.follows = "nixpkgs";
-  };
+
+    # Low latency kernal modules for music
+    musnix.url = "github:musnix/musnix";
+    
+    # Nixify flatpak installs
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
   };
 
   outputs = inputs: 

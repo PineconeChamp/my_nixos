@@ -10,6 +10,12 @@
       kalker
       kdePackages.dolphin
       libreoffice
+      p7zip
+      kdePackages.ark
+      unrar
+      gparted
+      baobab
+      lxqt.lxqt-policykit
     ];
   };
 }

@@ -8,6 +8,7 @@
       audio
       user
       nix
+      flatpak
     ];
   in {
     imports =

@@ -11,6 +11,20 @@
       self.nixosModules.firefox
       self.nixosModules.spotify
       self.nixosModules.discord
+      self.nixosModules.steam
+      self.nixosModules.proton
+      self.nixosModules.godot
+      self.nixosModules.krita
+      self.nixosModules.blender
+      self.nixosModules.prismlauncher
+      self.nixosModules.reaper
+      self.nixosModules.wine
+      self.nixosModules.bottles
+      self.nixosModules.qpwgraph
+      self.nixosModules.yabridge
+      self.nixosModules.wine-yabridge
+      self.nixosModules.audio-plugins
+      self.nixosModules.obs-studio
     ];
 
     system.stateVersion = "26.05"; # Did you read the comment?
