@@ -16,6 +16,8 @@
       gparted
       baobab
       lxqt.lxqt-policykit
+      putty
+      filezilla
     ];
   };
 }

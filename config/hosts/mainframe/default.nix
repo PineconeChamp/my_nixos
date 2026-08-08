@@ -25,6 +25,7 @@
       self.nixosModules.wine-yabridge
       self.nixosModules.audio-plugins
       self.nixosModules.obs-studio
+      self.nixosModules.opentabletdriver
     ];
 
     system.stateVersion = "26.05"; # Did you read the comment?

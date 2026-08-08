@@ -9,6 +9,7 @@
       user
       nix
       flatpak
+      otd
     ];
   in {
     imports =

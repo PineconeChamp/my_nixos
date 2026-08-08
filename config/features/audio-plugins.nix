@@ -5,6 +5,7 @@
       lsp-plugins
       vital
       helm
+      easyeffects
     ];
 
     # Force NixOS to expose the target directory contents to the system layer
